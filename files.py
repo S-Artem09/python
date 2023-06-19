@@ -80,7 +80,7 @@
 #     seasons_file.write(average_season(season) + "\n")
 # seasons_file.close()
 
-training_file = open('files/training.txt', 'r', encoding='UTF-8')
+#training_file = open('files/training.txt', 'r', encoding='UTF-8')
 # 1
 # s = 0
 # for line in training_file:
@@ -146,5 +146,10 @@ training_file = open('files/training.txt', 'r', encoding='UTF-8')
 # for number in lazy_list:
 #     print(number_of_month[number])
 
-        
 
+# def line_count(filename):
+#     file = open(filename, 'r', encoding='UTF-8')
+#     return len(file.readlines())
+#
+#
+# print(line_count('test.txt'))

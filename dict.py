@@ -35,26 +35,6 @@
 # print(a)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # numbers = {"Artem": 89773424436, "Nikita": 89103335566}
 # numbers.update({"Vlad": 89153214455})
 # print(numbers)
@@ -62,3 +42,24 @@
 #     print(f"{name} - {tel}")
 # name = input("Введите имя: ")
 # print(numbers.setdefault(name, 7984324234242))
+
+# a = {1: 'one', 2: 'two'}
+# print(a.setdefault(7, 'seven'))
+# print(a)
+
+# a = {}
+# while True:
+#     s = input()
+#     if s == '.':
+#         break
+#     l = s.split()
+#     if len(l) == 2:
+#         a[l[0]] = l[1]
+#     else:
+#         print(a[l[0]])
+
+a = int(input())
+i = 2
+while i < a:
+    print(i)
+    i += 1

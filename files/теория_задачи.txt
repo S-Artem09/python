@@ -63,7 +63,7 @@ f.close
 with open("text.txt", encoding="UTF-8") as f:
     f.write("ddd")
 
-
+# file.seek(n) # перемещает курсор в позицию n
     
 # -----------ЗАДАЧИ-----------------
 
